@@ -1,0 +1,199 @@
+
+body{
+    margin:0;
+    background:#353232;
+    font-family: 'Poetsen One', sans-serif;
+  }
+  
+  
+  
+  
+  /* Navigation bar and logo */
+  #main_menu {
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 82px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10 20px; /* Increased padding for better spacing */
+    position: fixed;
+    top:0;
+    z-index: 9999; /* Ensure navigation stays on top */
+  }
+  
+  
+  nav#main_menu img {
+    max-width: 40%;
+    height: 82px;
+  }
+  
+  #main_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  #main_menu ul li {
+    margin-left: 20px;
+    display: inline-block;
+    position:relative;
+  }
+  
+  #main_menu ul li:first-child {
+    margin-left: 0;
+  }
+  
+  
+  
+  #main_menu ul li a {
+    text-decoration: none;
+    color: bisque;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    padding: 12px 15px;
+  }
+  
+  #main_menu ul li a:hover {
+    background: #FDFFC2;
+    color: aqua;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  /* dropdown menu*/
+  
+  
+  
+  #main_menu ul ul {
+    display: none;
+    position: absolute;
+    background: #353232;
+    border-radius: 0 0 10px 10px;
+    top: 0;
+   
+  }
+  
+  #main_menu ul li:hover > ul {
+    display: block;
+  }
+  #main_menu ul ul li {
+    display: block;
+    padding: 160px 5px;
+  }
+  
+  #main_menu ul ul li a {
+    color: bisque;
+    text-decoration: none;
+  }
+
+
+
+
+/* web design */
+
+.web_design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web_design img {
+  max-width: 100%; /* Set max-width to 100% for responsiveness */
+  height: 400px; /* Automatically adjust height to maintain aspect ratio */
+  margin-top: 88px;
+}
+
+
+/* description */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+h1, h2 {
+  margin-top: 40px;
+  color:aliceblue;
+}
+
+section {
+  padding: 20px;
+  color:aliceblue;
+}
+
+section p {
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+
+
+
+
+/* Footer */
+.fotter{
+  width:100%;
+  height: 200px;
+    background:#D8AE7E;
+  
+  
+  }
+  
+  .fotter ul{
+    list-style: none;
+   
+  
+  }
+  .fotter ul li{
+   
+    display:inline-block;
+    padding: 12px 15px;
+    margin-top:50px;
+    background:#803D3B;
+    border-radius: 20px;
+   
+    margin:10px;
+    
+    
+  }
+  
+  .fotter ul li a{
+  
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+  }
+  
+  .fotter ul li a:hover{
+    opacity:0.5;
+    
+    font-weight: bolder;
+    font-size: 20px;
+    color:aqua;
+  }
+  
+  .copy{
+    width:100%;
+    height:60px;
+    background: black;
+  }
+  
+  .copy footer{
+    color:aqua;
+  }
+ 
